@@ -40,7 +40,7 @@ public class UiController : MonoBehaviour
       
    }
 
-    private void ApplyUiElements()
+    public void ApplyUiElements()
     {
        _coinsValueText.text = _init.playerData.CoinsValue.ToString();
        _levelValueText.text = _init.playerData.Level.ToString();

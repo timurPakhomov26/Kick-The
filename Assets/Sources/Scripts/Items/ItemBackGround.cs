@@ -11,8 +11,8 @@ public class ItemBackGround : MonoBehaviour
     [SerializeField] private int _price;
     public int Price => _price;
 
-    [SerializeField] private bool _isBuyed;
-    public bool IsBuyed => _isBuyed;
+   
+    public bool IsBuyed;
 
     [SerializeField] private TextMeshProUGUI _priceText;
 

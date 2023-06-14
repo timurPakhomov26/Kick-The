@@ -35,7 +35,7 @@ public class Bit : MonoBehaviour
       var cursorMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
        RaycastHit2D hit = Physics2D.Raycast(cursorMouse,Vector2.zero,100,_layer);
        
-       if(Input.GetMouseButton(0))
+      /* if(Input.GetMouseButton(0))
        {
         // RaycastHit2D hit = Physics2D.Raycast(cursorMouse,Vector2.zero,100,_layer);
          if(hit.rigidbody != null)
@@ -44,7 +44,7 @@ public class Bit : MonoBehaviour
 
            // OnHitPerson?.Invoke();
          }
-       }
+       }*/
        if(Input.GetMouseButtonUp(0))
        {
          //hit.transform.position = transform.position;

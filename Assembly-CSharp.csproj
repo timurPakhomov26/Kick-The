@@ -53,6 +53,7 @@
      <Compile Include="Assets\Sources\Scripts\Providers\ProvidersController.cs" />
      <Compile Include="Assets\Sources\Scripts\Bit.cs" />
      <Compile Include="Assets\Sources\Scripts\IWeapon.cs" />
+     <Compile Include="Assets\Sources\Scripts\WeaponInfo.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
